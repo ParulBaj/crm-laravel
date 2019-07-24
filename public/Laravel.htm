@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://localhost:8000/employees/create -->
+<html style="height: auto; min-height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Laravel</title>
+
+    <link rel="stylesheet" href="./Laravel_files/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./Laravel_files/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="./Laravel_files/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="./Laravel_files/AdminLTE.min.css">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="./Laravel_files/_all-skins.min.css">
+
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;box-sizing: content-box;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+<!--
+BODY TAG OPTIONS:
+=================
+Apply one or more of the following classes to get the
+desired effect
+|---------------------------------------------------------|
+| SKINS         | skin-blue                               |
+|               | skin-black                              |
+|               | skin-purple                             |
+|               | skin-yellow                             |
+|               | skin-red                                |
+|               | skin-green                              |
+|---------------------------------------------------------|
+|LAYOUT OPTIONS | fixed                                   |
+|               | layout-boxed                            |
+|               | layout-top-nav                          |
+|               | sidebar-collapse                        |
+|               | sidebar-mini                            |
+|---------------------------------------------------------|
+-->
+<body class="skin-blue sidebar-mini" style="height: auto; min-height: 100%;">
+<div class="wrapper" style="height: auto; min-height: 100%;">
+
+    <!-- Main Header -->
+    <header class="main-header">
+
+        <!-- Logo -->
+        <a href="http://localhost:8000/employees/index2.html" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini"><b>A</b>LT</span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg">Laravel</span>
+        </a>
+
+        <!-- Header Navbar -->
+        <nav class="navbar navbar-static-top" role="navigation">
+            <!-- Sidebar toggle button-->
+            <a href="http://localhost:8000/employees/create#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                <span class="sr-only">Toggle navigation</span>
+            </a>
+            <!-- Navbar Right Menu -->
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+                    <!-- Messages: style can be found in dropdown.less-->
+                    
+                        
+                        
+                            
+                            
+                        
+                        
+                            
+                            
+                                
+                                
+                                    
+                                        
+                                            
+                                                
+                                                
+                                            
+                                            
+                                            
+                                                
+                                                
+                                            
+                                            
+                                            
+                                        
+                                    
+                                    
+                                
+                                
+                            
+                            
+                        
+                    
+                    <!-- /.messages-menu -->
+
+                    <!-- Notifications Menu -->
+                    
+                        
+                        
+                            
+                            
+                        
+                        
+                            
+                            
+                                
+                                
+                                    
+                                        
+                                            
+                                        
+                                    
+                                    
+                                
+                            
+                            
+                        
+                    
+                    <!-- Tasks Menu -->
+                    
+                        
+                        
+                            
+                            
+                        
+                        
+                            
+                            
+                                
+                                
+                                    
+                                        
+                                            
+                                            
+                                                
+                                                
+                                            
+                                            
+                                            
+                                                
+                                                
+                                                     
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                                
+                            
+                            
+                                
+                            
+                        
+                    
+                    <!-- User Account Menu -->
+                    <li class="dropdown user user-menu">
+                        <!-- Menu Toggle Button -->
+                        
+                            
+                            
+                            
+                            
+                        
+                        <ul class="dropdown-menu">
+                            <!-- The user image in the menu -->
+                            
+                                
+
+                                
+                                    
+                                    
+                                
+                            
+                            <!-- Menu Body -->
+                            
+                                
+                                    
+                                        
+                                    
+                                    
+                                        
+                                    
+                                    
+                                        
+                                    
+                                
+                                
+                            
+                            <!-- Menu Footer-->
+                            <li class="user-footer">
+                                <div class="pull-left">
+                                    <a href="http://localhost:8000/employees/create#" class="btn btn-default btn-flat">Profile</a>
+                                </div>
+                                <div class="pull-right">
+                                    <a href="http://localhost:8000/employees/create#" class="btn btn-default btn-flat">Sign out</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Control Sidebar Toggle Button -->
+                    
+                        
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar" style="height: auto;">
+
+            <!-- /.search form -->
+
+            <!-- Sidebar Menu -->
+            <ul class="sidebar-menu tree" data-widget="tree">
+                <li class="header">Admin</li>
+                <!-- Optionally, you can add icons to the links -->
+                <li class="active"><a href="http://localhost:8000/companies"><i class="fa fa-link"></i> <span>Companies</span></a></li>
+                <li><a href="http://localhost:8000/employees"><i class="fa fa-link"></i> <span>Employees</span></a></li>
+            </ul>
+            <!-- /.sidebar-menu -->
+        </section>
+        <!-- /.sidebar -->
+    </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper" style="min-height: 502.006px;">
+        <!-- Content Header (Page header) -->
+
+        <!-- Main content -->
+        <section class="content container-fluid">
+    <div class="row">
+        <div class="col-lg-12 margin-tb">
+            <div class="pull-left">
+                <h2>Add New Employee</h2>
+            </div>
+            <div class="pull-right">
+                <a class="btn btn-primary" href="http://localhost:8000/employees"> Back</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-default">
+
+                <form action="http://localhost:8000/employees" method="POST">
+                    <input type="hidden" name="_token" value="lOD7nWPu9JesyASr8UPg2ctzBN8gixqQJjbJHnUk">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="form-group">
+                                <strong>First Name:</strong>
+                                <input type="text" name="first_name" class="form-control" placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="form-group">
+                                <strong>Last Name:</strong>
+                                <input type="text" name="last_name" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="form-group">
+                                <strong>Company:</strong>
+                                <input type="text" name="company" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="form-group">
+                                <strong>Email:</strong>
+                                <input type="email" name="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="form-group">
+                                <strong>Phone:</strong>
+                                <input type="tel" name="phone" class="form-control" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+        </section>
+        <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+
+    </footer>
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+        <!-- Create the tabs -->
+        <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+            <li class="active"><a href="http://localhost:8000/employees/create#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
+            <li><a href="http://localhost:8000/employees/create#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <!-- Home tab content -->
+            <div class="tab-pane active" id="control-sidebar-home-tab">
+                <h3 class="control-sidebar-heading">Recent Activity</h3>
+                <ul class="control-sidebar-menu">
+                    <li>
+                        <a href="javascript:;">
+                            <i class="menu-icon fa fa-birthday-cake bg-red"></i>
+
+                            <div class="menu-info">
+                                <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
+
+                                <p>Will be 23 on April 24th</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <!-- /.control-sidebar-menu -->
+
+                <h3 class="control-sidebar-heading">Tasks Progress</h3>
+                <ul class="control-sidebar-menu">
+                    <li>
+                        <a href="javascript:;">
+                            <h4 class="control-sidebar-subheading">
+                                Custom Template Design
+                                <span class="pull-right-container">
+                    <span class="label label-danger pull-right">70%</span>
+                  </span>
+                            </h4>
+
+                            <div class="progress progress-xxs">
+                                <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <!-- /.control-sidebar-menu -->
+
+            </div>
+            <!-- /.tab-pane -->
+            <!-- Stats tab content -->
+            <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
+            <!-- /.tab-pane -->
+            <!-- Settings tab content -->
+            <div class="tab-pane" id="control-sidebar-settings-tab">
+                <form method="post">
+                    <h3 class="control-sidebar-heading">General Settings</h3>
+
+                    <div class="form-group">
+                        <label class="control-sidebar-subheading">
+                            Report panel usage
+                            <input type="checkbox" class="pull-right" checked="">
+                        </label>
+
+                        <p>
+                            Some information about this general settings option
+                        </p>
+                    </div>
+                    <!-- /.form-group -->
+                </form>
+            </div>
+            <!-- /.tab-pane -->
+        </div>
+    </aside>
+    <!-- /.control-sidebar -->
+    <!-- Add the sidebar's background. This div must be placed
+    immediately after the control sidebar -->
+    <div class="control-sidebar-bg"></div>
+</div>
+
+<!-- AdminLTE App -->
+<script src="./Laravel_files/app.js"></script>
+<script src="./Laravel_files/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="./Laravel_files/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+    $.widget.bridge('uibutton', $.ui.button);
+</script>
+<!-- Bootstrap 3.3.7 -->
+<script src="./Laravel_files/bootstrap.min.js"></script>
+<!-- Morris.js charts -->
+<script src="./Laravel_files/raphael.min.js"></script>
+<script src="./Laravel_files/morris.min.js"></script>
+<!-- Sparkline -->
+<script src="./Laravel_files/jquery.sparkline.min.js"></script>
+<!-- jvectormap -->
+<script src="./Laravel_files/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="./Laravel_files/jquery-jvectormap-world-mill-en.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="./Laravel_files/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="./Laravel_files/moment.min.js"></script>
+<script src="./Laravel_files/daterangepicker.js"></script>
+<!-- datepicker -->
+<script src="./Laravel_files/bootstrap-datepicker.min.js"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="./Laravel_files/bootstrap3-wysihtml5.all.min.js"></script>
+<!-- Slimscroll -->
+<script src="./Laravel_files/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="./Laravel_files/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="./Laravel_files/adminlte.min.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="./Laravel_files/dashboard.js"></script>
+
+
+<!-- Optionally, you can add Slimscroll and FastClick plugins.
+     Both of these plugins are recommended to enhance the
+     user experience. -->
+
+<div class="jvectormap-label"></div></body></html>
